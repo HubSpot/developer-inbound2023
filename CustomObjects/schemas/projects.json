@@ -1,0 +1,44 @@
+{
+    "name": "construction_projects",
+    "labels": { "singular": "Construction Project", "plural": "Construction Projects" },
+    "searchableProperties": ["project_name", "asana_id"],
+    "primaryDisplayProperty": "asana_id",
+    "properties": [
+      {
+        "name": "asana_id",
+        "label": "Asana Id",
+        "type": "number",
+        "fieldType": "number",
+        "description": "Asana Id associated with the construction project"
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "description": "",
+        "options": [
+          { "label": "Assigned", "value": "assigned" },
+          { "label": "Planning Initiated", "value": "planning" },
+          { "label": "In Progress", "value": "In Progress" },
+          { "label": "Completed", "value": "Completed" },
+          { "label": "Initiate Project", "value": "initiate" }
+        ]
+      },
+      {
+        "name": "project_name",
+        "label": "Project Name",
+        "type": "string",
+        "fieldType": "text",
+        "description": ""
+      }, 
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "number",
+        "fieldType": "number",
+        "description": "Budget for construction project"
+      }
+    ],
+    "associatedObjects":["COMPANY"]
+  }
