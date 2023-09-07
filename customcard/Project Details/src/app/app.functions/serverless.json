@@ -1,0 +1,30 @@
+{
+  "runtime": "nodejs16.x",
+  "version": "1.0",
+  "appFunctions": {
+    "searchForProjects": {
+      "file": "searchForProjects.js",
+      "secrets": []
+    }, 
+    "assignAndUpdateStatus": {
+      "file": "assignAndUpdateStatus.js",
+      "secrets": []
+    }, 
+    "updateProjectStatus": {
+      "file": "updateProjectStatus.js",
+      "secrets": []
+    }, 
+    "getAssociatedProjects": {
+      "file": "getAssociatedProjects.js",
+      "secrets":[]
+    },
+    "createNewProject": {
+      "file": "createNewProject.js",
+      "secrets": []
+    },
+    "removeProjectFromCompany": {
+      "file": "removeProjectFromCompany.js",
+      "secrets": []
+    }
+  }
+}

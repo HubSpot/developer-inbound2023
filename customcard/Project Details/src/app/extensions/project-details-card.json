@@ -1,0 +1,11 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Construction Project Details",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "project-card-frontend.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

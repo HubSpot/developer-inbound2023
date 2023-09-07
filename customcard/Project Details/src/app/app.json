@@ -1,0 +1,16 @@
+{
+  "name": "Construction Project",
+  "description": "This is a private app for project management with a construction project.",
+  "scopes": ["crm.objects.custom.read", "crm.objects.custom.write","crm.objects.companies.read",
+  "crm.objects.companies.write","collector.graphql_schema.read","collector.graphql_query.execute"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/project-details-card.json"
+        }
+      ]
+    }
+  }
+}

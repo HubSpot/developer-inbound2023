@@ -1,0 +1,63 @@
+{
+  "entry": "project-card-frontend.jsx",
+  "modules": {
+    "internal": [
+      {
+        "module": "components/addNewComponents.jsx",
+        "renderedExports": [
+          "AddProjectForm",
+          "AssignmentForm",
+          "AddAssignButtons",
+          "AddNewFrame"
+        ]
+      },
+      {
+        "module": "components/assignedProjectTable.jsx",
+        "renderedExports": [
+          "AssignedProjectTable",
+          "ProjectDetailsRow"
+        ]
+      },
+      {
+        "module": "project-card-frontend.jsx",
+        "renderedExports": []
+      }
+    ],
+    "external": [
+      {
+        "module": "node_modules/@hubspot/ui-extensions/dist/hubspot.js",
+        "renderedExports": [
+          "hubspot"
+        ]
+      },
+      {
+        "module": "node_modules/@hubspot/ui-extensions/dist/coreComponents.js",
+        "renderedExports": [
+          "Button",
+          "ButtonRow",
+          "EmptyState",
+          "Form",
+          "Input",
+          "Link",
+          "LoadingSpinner",
+          "Select",
+          "Tag",
+          "Text",
+          "Table",
+          "TableCell",
+          "TableRow",
+          "TableBody",
+          "TableHeader",
+          "TableHead",
+          "Flex"
+        ]
+      },
+      {
+        "module": "node_modules/@hubspot/ui-extensions/dist/types.js",
+        "renderedExports": [
+          "ServerlessExecutionStatus"
+        ]
+      }
+    ]
+  }
+}
